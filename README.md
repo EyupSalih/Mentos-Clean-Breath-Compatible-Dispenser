@@ -52,7 +52,7 @@ Nominal tablet model used in CAD:
 
 A detailed X-ray-style assembly, refill and usage video is included:
 
-**[Watch / download the V7 assembly video](media/V7_XRAY_assembly_fill_use_30fps.mp4)**
+**[Watch / download the V7 assembly video](Media/V7_XRAY_assembly_fill_use_30fps.mp4)**
 
 The video uses transparent/X-ray views where the outer shell would otherwise hide the internal mechanism.
 
