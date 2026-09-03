@@ -1,0 +1,184 @@
+test,value,expected,severity,note
+connected_solids::chassis,1,1,CRITICAL,
+valid_shape::chassis,1,1,CRITICAL,
+connected_solids::transfer_base,1,1,CRITICAL,
+valid_shape::transfer_base,1,1,CRITICAL,
+connected_solids::top_cap,1,1,CRITICAL,
+valid_shape::top_cap,1,1,CRITICAL,
+connected_solids::magazine,1,1,CRITICAL,
+valid_shape::magazine,1,1,CRITICAL,
+connected_solids::follower,1,1,CRITICAL,
+valid_shape::follower,1,1,CRITICAL,
+connected_solids::shuttle,1,1,CRITICAL,
+valid_shape::shuttle,1,1,CRITICAL,
+connected_solids::release_bar,1,1,CRITICAL,
+valid_shape::release_bar,1,1,CRITICAL,
+connected_solids::bottom_cover,1,1,CRITICAL,
+valid_shape::bottom_cover,1,1,CRITICAL,
+magL_vs_chassis,0.0,0,CRITICAL,
+magR_vs_chassis,0.0,0,CRITICAL,
+base_vs_chassis,0.0,0,CRITICAL,
+topcap_vs_base,0.0,0,CRITICAL,
+bottomcover_vs_chassis_closed,0.0,0,CRITICAL,
+releasebar_rest_vs_chassis,0.0,0,CRITICAL,
+releasebar_rest_vs_magL,0.0,0,CRITICAL,
+releasebar_rest_vs_magR,0.0,0,CRITICAL,
+L_follower_vs_mag_z12.4,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z12.4,0.0,0,CRITICAL,
+L_follower_vs_mag_z20,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z20,0.0,0,CRITICAL,
+L_follower_vs_mag_z40,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z40,0.0,0,CRITICAL,
+L_follower_vs_mag_z65,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z65,0.0,0,CRITICAL,
+L_follower_vs_mag_z90,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z90,0.0,0,CRITICAL,
+L_follower_vs_mag_z103.7,0.0,0,CRITICAL,
+L_follower_vs_closed_shell_z103.7,0.0,0,CRITICAL,
+R_follower_vs_mag_z12.4,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z12.4,0.0,0,CRITICAL,
+R_follower_vs_mag_z20,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z20,0.0,0,CRITICAL,
+R_follower_vs_mag_z40,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z40,0.0,0,CRITICAL,
+R_follower_vs_mag_z65,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z65,0.0,0,CRITICAL,
+R_follower_vs_mag_z90,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z90,0.0,0,CRITICAL,
+R_follower_vs_mag_z103.7,0.0,0,CRITICAL,
+R_follower_vs_closed_shell_z103.7,0.0,0,CRITICAL,
+doubleJ_rotation_0,0.0,0,CRITICAL,Both stems rotate within symmetric J windows.
+doubleJ_rotation_6,0.0,0,CRITICAL,Both stems rotate within symmetric J windows.
+doubleJ_rotation_12,0.0,0,CRITICAL,Both stems rotate within symmetric J windows.
+doubleJ_rotation_18,0.000324,0,CRITICAL,Both stems rotate within symmetric J windows.
+L_locked_mag_insert_-60,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+L_locked_mag_insert_-35,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+L_locked_mag_insert_-18,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+L_locked_mag_insert_-8,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+L_locked_mag_insert_0,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+R_locked_mag_insert_-60,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+R_locked_mag_insert_-35,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+R_locked_mag_insert_-18,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+R_locked_mag_insert_-8,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+R_locked_mag_insert_0,0.0,0,CRITICAL,Spring remains locked while inserting magazine.
+release_sweep_0,0.0,0,CRITICAL,Internal bar clears rigid housing.
+release_sweep_0.5,0.0,0,CRITICAL,Internal bar clears rigid housing.
+release_sweep_1.0,0.0,0,CRITICAL,Internal bar clears rigid housing.
+release_sweep_1.5,0.0,0,CRITICAL,Internal bar clears rigid housing.
+release_sweep_2.0,0.0,0,CRITICAL,Internal bar clears rigid housing.
+release_sweep_2.45,0.0,0,CRITICAL,Internal bar clears rigid housing.
+L_release_contact_rest,0.0,0,CRITICAL,
+L_release_contact_press,4.250313,>0 intentional,CRITICAL,Pusher nose reaches locked rear stem.
+R_release_contact_rest,0.0,0,CRITICAL,
+R_release_contact_press,4.250313,>0 intentional,CRITICAL,Pusher nose reaches locked rear stem.
+bottom_cover_slide_y34,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y28,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y22,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y16,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y10,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y5,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+bottom_cover_slide_y0,0.0,0,CRITICAL,Full outer cover slides without screw removal.
+shuttle_rigid_-9.5,0.0,0,CRITICAL,
+L_carried_nom_-9.5,0.0,0,CRITICAL,
+L_carried_MAX_-9.5,0.0,0,CRITICAL,
+R_carried_nom_-9.5,0.0,0,CRITICAL,
+R_carried_MAX_-9.5,0.0,0,CRITICAL,
+L_next_vs_cutoff_-9.5,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_-9.5,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_-6.33,0.0,0,CRITICAL,
+L_carried_nom_-6.33,0.0,0,CRITICAL,
+L_carried_MAX_-6.33,0.0,0,CRITICAL,
+R_carried_nom_-6.33,0.0,0,CRITICAL,
+R_carried_MAX_-6.33,0.0,0,CRITICAL,
+L_next_vs_cutoff_-6.33,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_-6.33,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_-3.17,0.0,0,CRITICAL,
+L_carried_nom_-3.17,0.0,0,CRITICAL,
+L_carried_MAX_-3.17,0.0,0,CRITICAL,
+R_carried_nom_-3.17,0.0,0,CRITICAL,
+R_carried_MAX_-3.17,0.0,0,CRITICAL,
+L_next_vs_cutoff_-3.17,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_-3.17,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_0,0.0,0,CRITICAL,
+L_carried_nom_0,0.0,0,CRITICAL,
+L_carried_MAX_0,0.0,0,CRITICAL,
+R_carried_nom_0,0.0,0,CRITICAL,
+R_carried_MAX_0,0.0,0,CRITICAL,
+L_next_vs_cutoff_0,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_0,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_3.17,0.0,0,CRITICAL,
+L_carried_nom_3.17,0.0,0,CRITICAL,
+L_carried_MAX_3.17,0.0,0,CRITICAL,
+R_carried_nom_3.17,0.0,0,CRITICAL,
+R_carried_MAX_3.17,0.0,0,CRITICAL,
+L_next_vs_cutoff_3.17,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_3.17,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_6.33,0.0,0,CRITICAL,
+L_carried_nom_6.33,0.0,0,CRITICAL,
+L_carried_MAX_6.33,0.0,0,CRITICAL,
+R_carried_nom_6.33,0.0,0,CRITICAL,
+R_carried_MAX_6.33,0.0,0,CRITICAL,
+L_next_vs_cutoff_6.33,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_6.33,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+shuttle_rigid_9.5,0.0,0,CRITICAL,
+L_carried_nom_9.5,0.0,0,CRITICAL,
+L_carried_MAX_9.5,0.0,0,CRITICAL,
+R_carried_nom_9.5,0.0,0,CRITICAL,
+R_carried_MAX_9.5,0.0,0,CRITICAL,
+L_next_vs_cutoff_9.5,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+R_next_vs_cutoff_9.5,0.0,0,CRITICAL,Second candy stays below moving cutoff plane.
+LEFT_DISPENSE_L_SOURCE_BLOCK,373.656037,>0 blocked,CRITICAL,Solid cutoff covers source when shuttle leaves neutral.
+LEFT_DISPENSE_R_SOURCE_BLOCK,252.120911,>0 blocked,CRITICAL,Solid cutoff covers source when shuttle leaves neutral.
+RIGHT_DISPENSE_L_SOURCE_BLOCK,252.12091,>0 blocked,CRITICAL,Solid cutoff covers source when shuttle leaves neutral.
+RIGHT_DISPENSE_R_SOURCE_BLOCK,373.656037,>0 blocked,CRITICAL,Solid cutoff covers source when shuttle leaves neutral.
+L_neutral_MAX_feed,0.0,0,CRITICAL,
+R_neutral_MAX_feed,0.0,0,CRITICAL,
+exit_R_POCKET_0,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_0,0.0,0,CRITICAL,
+exit_R_POCKET_-2,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-2,0.0,0,CRITICAL,
+exit_R_POCKET_-4,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-4,0.0,0,CRITICAL,
+exit_R_POCKET_-6,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-6,0.0,0,CRITICAL,
+exit_R_POCKET_-8,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-8,0.0,0,CRITICAL,
+exit_R_POCKET_-10,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-10,0.0,0,CRITICAL,
+exit_R_POCKET_-12,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-12,0.0,0,CRITICAL,
+exit_R_POCKET_-14,0.0,0,CRITICAL,
+exit_MAX_R_POCKET_-14,0.0,0,CRITICAL,
+exit_L_POCKET_0,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_0,0.0,0,CRITICAL,
+exit_L_POCKET_-2,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-2,0.0,0,CRITICAL,
+exit_L_POCKET_-4,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-4,0.0,0,CRITICAL,
+exit_L_POCKET_-6,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-6,0.0,0,CRITICAL,
+exit_L_POCKET_-8,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-8,0.0,0,CRITICAL,
+exit_L_POCKET_-10,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-10,0.0,0,CRITICAL,
+exit_L_POCKET_-12,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-12,0.0,0,CRITICAL,
+exit_L_POCKET_-14,0.0,0,CRITICAL,
+exit_MAX_L_POCKET_-14,0.0,0,CRITICAL,
+L_cap_feed_keepout,0.0,0,CRITICAL,
+R_cap_feed_keepout,0.0,0,CRITICAL,
+screwdriver_0_vs_shuttle_L,0.0,0,CRITICAL,
+screwdriver_0_vs_shuttle_C,0.0,0,CRITICAL,
+screwdriver_0_vs_shuttle_R,0.0,0,CRITICAL,
+screwdriver_1_vs_shuttle_L,0.0,0,CRITICAL,
+screwdriver_1_vs_shuttle_C,0.0,0,CRITICAL,
+screwdriver_1_vs_shuttle_R,0.0,0,CRITICAL,
+screwdriver_2_vs_shuttle_L,0.0,0,CRITICAL,
+screwdriver_2_vs_shuttle_C,0.0,0,CRITICAL,
+screwdriver_2_vs_shuttle_R,0.0,0,CRITICAL,
+screwdriver_3_vs_shuttle_L,0.0,0,CRITICAL,
+screwdriver_3_vs_shuttle_C,0.0,0,CRITICAL,
+screwdriver_3_vs_shuttle_R,0.0,0,CRITICAL,
+thumb_tab_height_above_cap_mm,3.3,>=2.8,HIGH,
+bottom_cover_width_mm,59.0,>=59,HIGH,
+bottom_cover_depth_mm,30.7,>=28,HIGH,

@@ -1,0 +1,44 @@
+{
+  "model": "Mentos Clean Breath V7 FUNCTIONAL",
+  "critical_failures": 0,
+  "status": "CAD_GATE_PASS",
+  "critical_failure_tests": [],
+  "scope": [
+    "connected printable solids",
+    "closed-shell follower travel",
+    "double-sided J lock",
+    "locked magazine insertion",
+    "side-button dual release",
+    "full sliding bottom cover",
+    "cutoff shuttle sweep",
+    "second-candy anti-jam block",
+    "worst-case candy extraction",
+    "top feed keepout",
+    "screwdriver access"
+  ],
+  "physical_validation_still_required": [
+    "real candy lot tolerances",
+    "main spring force curve",
+    "TPU hardness and food-safe material",
+    "FDM printer-specific sliding clearance",
+    "dust ingress check on bottom cover/button seal"
+  ],
+  "latest_integration": {
+    "updated_parts": [
+      "02_transfer_base_metering_deck",
+      "03_top_cap_real_screw_access"
+    ],
+    "assembly_states_regenerated": 9,
+    "changed_interface_targeted_checks": {
+      "01_vs_02_collision_mm3": 0.0,
+      "02_vs_03_collision_mm3": 0.0,
+      "02_vs_08_full_shuttle_stroke_max_collision_mm3": 0.0,
+      "03_vs_08_full_shuttle_stroke_max_collision_mm3": 0.0,
+      "02_vs_11_closed_collision_mm3": 0.0,
+      "03_vs_11_flap_0_to_90deg_max_collision_mm3": 0.0,
+      "screw_corridors_02_and_03": "PASS (4/4 fully open)",
+      "02_connected_solid": true,
+      "03_connected_solid": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿parca,malzeme,adet,gorev
+01_lower_chassis_closed_shell,PETG/ASA,1,Kapalı ana dış gövde; uzun follower kanalı yok
+02_transfer_base_metering_deck,PETG/ASA,1,Şeker feed/metering deck; shuttle rayları ve gerçek çıkış yolu
+03_top_cap_real_screw_access,PETG/ASA,1,Üst kapak; 4 gerçek M2.5 vida yolu ve açık tornavida erişimi
+04_magazine_LEFT_double_J,PETG/ASA,1,Sol 15 tabletlik çıkarılabilir şarjör; çift J kilit
+05_magazine_RIGHT_double_J,PETG/ASA,1,Sağ 15 tabletlik çıkarılabilir şarjör; çift J kilit
+06_follower_double_stem_PRINT_2,PETG/ASA,2,Çift karşılıklı saplı follower/takipçi
+07_TPU_feed_ring_PRINT_2,Food-safe TPU,2,Tek tablet feed kontrolü / titreşim azaltma
+08_dual_pocket_CUTOFF_shuttle,PETG/ASA,1,Dual-pocket shuttle + katı cutoff tabakası + yükseltilmiş thumb tab
+09_internal_common_release_bar,PETG/ASA,1,Yandaki tek butondan iki follower kilidini aynı anda açan iç bar
+10_TPU_side_button_seal,Food-safe TPU,1,Yan release butonu için toz bariyeri
+11_TPU_output_dust_flap,Food-safe TPU,1,Şeker çıkışında toz/dökülme flap’i
+12_full_sliding_bottom_outer_cover,PETG/ASA,1,Tam tabanı örten vidasız sürgülü dış kapak
+13_TPU_bottom_pad_PRINT_2,TPU,2,Şarjör alt preload / tıkırtı azaltma pedleri
+14_refill_push_twist_tool,PETG/ASA,1,Follower’ı aşağı bastırıp çift J kilide döndürme aparatı
+main_spring_10p05OD_0p32wire_110free,Paslanmaz yay,2,Ana follower yayları; gerçek kuvvet eğrisi fiziksel test gerektirir
+release_button_return_spring,Metal yay,1,Yan release butonu geri dönüş yayı
+M2p5x12_countersunk_screw,Metal,4,Üst kapak bağlantısı
+M2p5_heatset_insert,Pirinç,4,Ana gövdedeki üst bağlantı insertleri
+M3_shuttle_center_detent_ball_plunger,Metal,1,Shuttle orta detent; merkez konum daha güçlü
+M3_bottom_cap_ball_plunger,Metal,1,Sürgülü alt kapağın son konum detenti
+food_grade_silicone_cord_1p5mm,Food-grade silikon,4,Şarjör iç anti-rattle rayları; boy fiziksel montajda kesilir
