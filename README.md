@@ -4,7 +4,7 @@
 > **30-tablet capacity (15 + 15)**, anti-jam cutoff shuttle, closed outer shell, removable magazines, single-button spring release, sliding bottom service cover and a hinged dust flap.
 
 ![V7 product overview](Media/v7_product_poster.png)
-![V7 product overview for TR](Media/v7_product_poster_TR.png)
+Türkçe versiyon için "Media/v7_product_poster_TR.png"
 
 ## Project status
 
